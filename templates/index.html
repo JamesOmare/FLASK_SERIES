@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h3> Home Page </h3>
+
+<div class="posts">
+    {% for post in posts %}
+
+    <div class="post">
+
+        <h1>{{post.name}}</h1>
+        <p>Book ID {{post.id}} is to be returned on {{post.Due_date}}</p>
+
+    </div>
+
+    {% endfor %}
+</div>
+
+{% endblock content %}
