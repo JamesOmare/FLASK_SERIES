@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto Mono', 'Arial';
+    font-family: 'Arial', 'Roboto Mono';
 
 }
 
@@ -50,3 +50,4 @@ div.form{
 .error{
     color: red;
 }
+
