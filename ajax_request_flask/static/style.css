@@ -1,0 +1,27 @@
+body{
+    background: #352f5b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, label, p{
+    color: yellow;
+}
+
+.f1{
+    max-width: 400px;
+    padding: 20px;
+    background: #423a6f;
+}
+
+.form{
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type = text],
+input[type = text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
